@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +10,20 @@
 </head>
 <body>
     <header>
-        <div id="inicio">
+        <div id="logo">
             <a href="index.html">
-                <img src="cadastro.png" alt="cadastro" height="200" width="300">
+                <img src="img/cadastro.png" alt="cadastro">
             </a>
         </div>
         
-        <ul>
-            <li><a href="cadastro.html">Cadastro</a></li>
-            <li><a href="edfuncionarios.html">Editar Funcionarios</a></li>   
-            <li><a href="lisfuncionarios.html">Listar Funcionarios</a></li>
-       
-        </ul>
+        <div id="links">
+            <ul>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="edfuncionarios.html">Editar</a></li>   
+                <li><a href="lisfuncionarios.html">Listar</a></li>
+        
+            </ul>
+        </div>
     </header>
   
     
@@ -38,8 +42,8 @@
         </form>
         <br>
         <div>
-            <input class="botaosalvar" type="submit" value="Salvar">
-            <button class="botaocancelar">Limpar</button>
+            <input class="salvar" type="submit" value="Salvar">
+            <button class="cancelar">Limpar</button>
         </div>
     </main>
 
