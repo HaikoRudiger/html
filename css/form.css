@@ -1,14 +1,15 @@
 form{
     text-align: center;
     width: 400px;
-    margin: 20px auto;
+    margin: 20px auto; 
 }
 
 .campos{
     width: 200px;
     height: 20px;
-    border: 2px #e7e418 solid;
+    border: 2px #203970 solid;
     border-radius: 10px;
+    margin: 10px;
 
 }
 
@@ -27,10 +28,13 @@ form{
 }
 
 .salvar, .cancelar{
-    color:#e7e418;
-    background: black;
-    border: 1px solid #e7e418;
+    color:#103634;
+    background: rgb(131, 82, 82);
+    border: 1px solid #031136;
+    text-align: center;
+    margin: 15px;
 }
+
 
 
 input{
